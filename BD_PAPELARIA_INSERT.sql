@@ -76,6 +76,3 @@ INSERT INTO tb_saida_produto(qtde,data_saida,valor_unitario) VALUES (30, '2021-0
 INSERT INTO tb_saida_produto(qtde,data_saida,valor_unitario) VALUES (20, '2021-05-01', '3.00');
 INSERT INTO tb_saida_produto(qtde,data_saida,valor_unitario) VALUES (05, '2021-05-01', '8.00');
 INSERT INTO tb_saida_produto(qtde,data_saida,valor_unitario) VALUES (04, '2021-05-01', '6.00');
-
-
-SELECT MIN(valor_unitario) FROM tb_entrada_produto;
